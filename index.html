@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <body>
   </head>
   <body>
-    <p>Take our quiz to find out what kind of programmer you should become.
-    </p>
+    <div class="container">
+      <form id="formOne">
+        <select class="form-control" id="question1">
+          <p>This is question one</p>
+          <option value="1">purple</option>
+          <option value="2">pink</option>
+          <option value="3">blue</option>
+          <option value="4">green</option>
+        </select>
 
-    <select class="form-control" id="Q1">
-      <option value="A">A. dark</option>
-    B. light
-    C. red
-    D. blue
-    E. purple
+        <select class="form-control" id="question2">
+          <p>This is question two</p>
+          <option value="1">purple</option>
+          <option value="2">pink</option>
+          <option value="3">blue</option>
+          <option value="4">green</option>
+        </select>
+
+        <select class="form-control" id="question3">
+          <p>This is question three</p>
+          <option value="1">purple</option>
+          <option value="2">pink</option>
+          <option value="3">blue</option>
+          <option value="4">green</option>
+        </select>
+        <button type="submit" class="btn">Show me!</button>
+    </form>
+
+    </div>
   </body>
 </html>
