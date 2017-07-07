@@ -1,10 +1,25 @@
-#JavaScriptDeveloper {
+#java {
+  display: none;
+}
+#ruby {
+  display: none;
+}
+#csharp {
+  display: none;
+}
+#php {
+  display: none;
+}
+#javaruby {
+  display: none;
+}
+#rubyphp {
+  display: none;
+}
+#phpcsharp {
   display: none;
 }
 
-#other {
-  display: none;
-}
 p {
   font-size: 14px;
 }
