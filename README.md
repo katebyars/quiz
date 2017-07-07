@@ -11,6 +11,7 @@ _{For Introduction to Programming, at Epicodus, I coded this webpage to demonstr
 ## Setup/Installation Requirements
 
 * _Open this page in any browser._
+* _You may use this link : https://katebyars.github.io/quiz/ _
 * _There are no special fonts._
 
 
