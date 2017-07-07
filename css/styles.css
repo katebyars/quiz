@@ -1,7 +1,7 @@
 #java {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -21,7 +21,7 @@
 #csharp {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -31,7 +31,7 @@
 #php {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -41,7 +41,7 @@
 #javaruby {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -51,7 +51,7 @@
 #rubyphp {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -61,7 +61,7 @@
 #phpcsharp {
   height: 600px;
   color: white;
-  background-color:  #4cc9f7;
+  background-color:  #1e7200;
   display: none;
   padding-left: 100px;
   padding-right: 100px;
@@ -81,16 +81,25 @@
   padding-top: 125px;
 }
 
+a {
+  color: white;
+  font-size: 20px;
+}
 #secondrow {
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 30px;
+  padding-top: 400px;
 }
 
 #formOne {
   padding-left:150px;
   padding-right:150px;
   padding-top: 20px;
+}
+
+.col-md-10 {
+  padding-top: 300px;
+  text-align: center;
 }
 
 h1 {
@@ -111,11 +120,18 @@ p {
   font-size: 20px;
 }
 
+h4 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 55px;
+}
+
 .btnback {
   color: gray;
   background-color: white;
   float: right;
 }
+
 .btn {
   padding: 15px;
   margin: 15px;
@@ -127,6 +143,7 @@ p {
   font-family: sans-serif;
   font-size: 24px;
 }
+
 .container-fluid {
   width:100%;
   max-width:none;
@@ -134,6 +151,25 @@ p {
 }
 
 .blockone {
-  height: 700px;
-  background-color: #4cc9f7;
+  height: 300px
+}
+
+body, html { min-height: 100%; }
+
+body {
+	color: white;
+	background: url(../img/green2.jpg) center no-repeat;
+	background-size: cover;
+	background-color: #444;
+}
+div#stmark {
+	width: 40%;
+	margin: 3em;
+	padding-top: 25%;
+  padding-right: 25%;
+	float: right;
+	line-height: 155%;
+}
+div#stmark h1 {
+	margin-top: 0;
 }
