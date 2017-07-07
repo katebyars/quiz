@@ -15,6 +15,14 @@ $(document).ready(function() {
 
     if (sum<6){
         $('#java').show();
+        $('#ruby').hide();
+        $('#php').hide();
+        $('#csharp').hide();
+        $('#javaruby').hide();
+        $('#rubyphp').hide();
+        $('#phpcsharp').hide();
+        $("#formOne").hide();
+        $("#secondrow").hide();
       } else if (sum>6&&sum<10) {
         $('#ruby').show();
         $('#java').hide();
@@ -23,6 +31,9 @@ $(document).ready(function() {
         $('#javaruby').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $("#formOne").hide();
+        $("#secondrow").hide();
+
       } else if (sum>10&&sum<14) {
         $('#php').show();
         $('#ruby').hide();
@@ -31,6 +42,9 @@ $(document).ready(function() {
         $('#javaruby').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
       } else if (sum==6) {
         $('#javaruby').show();
         $('#ruby').hide();
@@ -39,6 +53,9 @@ $(document).ready(function() {
         $('#csharp').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
       } else if (sum==10) {
         $('#rubyphp').show();
         $('#ruby').hide();
@@ -47,6 +64,9 @@ $(document).ready(function() {
         $('#csharp').hide();
         $('#javaruby').hide();
         $('#phpcsharp').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
       } else if (sum==14) {
         $('#phpcsharp').show();
         $('#ruby').hide();
@@ -55,6 +75,9 @@ $(document).ready(function() {
         $('#csharp').hide();
         $('#javaruby').hide();
         $('#rubyphp').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
       } else {
         $('#csharp').show();
         $('#ruby').hide();
@@ -63,6 +86,9 @@ $(document).ready(function() {
         $('#javaruby').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $("#formOne").hide();
+        $("#secondrow").hide();
+
       }
 
 });

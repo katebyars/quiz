@@ -1,5 +1,12 @@
 #java {
+  height: 400px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #ruby {
   display: none;
@@ -20,6 +27,66 @@
   display: none;
 }
 
+#girldev {
+  padding-top: 100px;
+  padding-left: 10%;
+  float: left;
+}
+
+#rightcolumn {
+  color: white;
+  padding-right: 10%;
+  padding-top: 125px;
+}
+
+#secondrow {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+#formOne {
+  padding-left:150px;
+  padding-right:150px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 200px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+h2 {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
 p {
-  font-size: 14px;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 15px;
+  margin: 15px;
+  color: white;
+}
+
+.questionformat {
+  padding-top: 30px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.container-fluid {
+  width:100%;
+  max-width:none;
+  padding:0;
+}
+
+.blockone {
+  height: 700px;
+  background-color: #4cc9f7;
 }
