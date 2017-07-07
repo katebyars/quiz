@@ -1,5 +1,5 @@
 #java {
-  height: 400px;
+  height: 600px;
   color: white;
   background-color:  #4cc9f7;
   display: none;
@@ -9,22 +9,64 @@
   margin-top: 25px;
 }
 #ruby {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #csharp {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #php {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #javaruby {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #rubyphp {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 #phpcsharp {
+  height: 600px;
+  color: white;
+  background-color:  #4cc9f7;
   display: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  margin-top: 25px;
 }
 
 #girldev {
@@ -69,6 +111,11 @@ p {
   font-size: 20px;
 }
 
+.btnback {
+  color: gray;
+  background-color: white;
+  float: right;
+}
 .btn {
   padding: 15px;
   margin: 15px;

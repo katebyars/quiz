@@ -45,36 +45,47 @@ $(document).ready(function() {
         $('#formOne').hide();
         $("#secondrow").hide();
 
-      } else if (sum==6) {
-        $('#javaruby').show();
+      } else if (sum==4) {
+        $('#java').show();
         $('#ruby').hide();
+        $('#php').hide();
+        $('#csharp').hide();
+        $('#rubyphp').hide();
+        $('#phpcsharp').hide();
+        $('#javaruby').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
+      } else if (sum==8) {
+        $('#ruby').show();
         $('#java').hide();
         $('#php').hide();
         $('#csharp').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $('#javaruby').hide();
         $('#formOne').hide();
         $("#secondrow").hide();
 
-      } else if (sum==10) {
-        $('#rubyphp').show();
+      } else if (sum==12) {
+        $('#php').show();
         $('#ruby').hide();
         $('#java').hide();
-        $('#php').hide();
         $('#csharp').hide();
-        $('#javaruby').hide();
-        $('#phpcsharp').hide();
-        $('#formOne').hide();
-        $("#secondrow").hide();
-
-      } else if (sum==14) {
-        $('#phpcsharp').show();
-        $('#ruby').hide();
-        $('#java').hide();
-        $('#php').hide();
-        $('#csharp').hide();
-        $('#javaruby').hide();
         $('#rubyphp').hide();
+        $('#phpcsharp').hide();
+        $('#javaruby').hide();
+        $('#formOne').hide();
+        $("#secondrow").hide();
+
+      } else if (sum==16) {
+        $('#csharp').show();
+        $('#ruby').hide();
+        $('#java').hide();
+        $('#php').hide();
+        $('#rubyphp').hide();
+        $('#phpcsharp').hide();
+        $('#javaruby').hide();
         $('#formOne').hide();
         $("#secondrow").hide();
 
@@ -83,13 +94,24 @@ $(document).ready(function() {
         $('#ruby').hide();
         $('#java').hide();
         $('#php').hide();
-        $('#javaruby').hide();
         $('#rubyphp').hide();
         $('#phpcsharp').hide();
+        $('#javaruby').hide();
         $("#formOne").hide();
         $("#secondrow").hide();
 
       }
+});
 
+  $(".btnback").click(function() {
+    $('#csharp').hide();
+    $('#ruby').hide();
+    $('#java').hide();
+    $('#php').hide();
+    $('#javaruby').hide();
+    $('#rubyphp').hide();
+    $('#phpcsharp').hide();
+    $("#formOne").show();
+    $("#secondrow").show();
 });
 });
