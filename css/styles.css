@@ -68,94 +68,79 @@
   padding-top: 50px;
   margin-top: 25px;
 }
-
 #girldev {
   padding-top: 100px;
   padding-left: 10%;
   float: left;
 }
-
 #rightcolumn {
   color: white;
   padding-right: 10%;
   padding-top: 125px;
-}
-
-a {
-  color: white;
-  font-size: 20px;
 }
 #secondrow {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 400px;
 }
-
 #formOne {
   padding-left:150px;
   padding-right:150px;
   padding-top: 20px;
 }
-
 .col-md-10 {
   padding-top: 300px;
   text-align: center;
 }
-
-h1 {
-  font-size: 200px;
-  font-family: sans-serif;
-  text-align: right;
-}
-
-h2 {
-  font-size: 80px;
-  font-family: sans-serif;
-  text-align: right;
-}
-
-p {
-  text-align: justify;
-  font-family: sans-serif;
-  font-size: 20px;
-}
-
-h4 {
-  color: white;
-  font-family: sans-serif;
-  font-size: 55px;
-}
-
 .btnback {
   color: gray;
   background-color: white;
   float: right;
 }
-
 .btn {
   padding: 15px;
   margin: 15px;
   color: white;
 }
-
 .questionformat {
   padding-top: 30px;
   font-family: sans-serif;
   font-size: 24px;
 }
-
 .container-fluid {
   width:100%;
   max-width:none;
   padding:0;
 }
-
 .blockone {
   height: 300px
 }
-
-body, html { min-height: 100%; }
-
+a {
+  color: white;
+  font-size: 20px;
+}
+h1 {
+  font-size: 200px;
+  font-family: sans-serif;
+  text-align: right;
+}
+h2 {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: right;
+}
+p {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+h4 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 55px;
+}
+body, html { min-height: 100%;
+}
 body {
 	color: white;
 	background: url(../img/green2.jpg) center no-repeat;

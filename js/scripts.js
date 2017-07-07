@@ -2,7 +2,6 @@ var add = function(answer1, answer2, answer3, answer4, answer5) {
  return answer1 + answer2 + answer3 + answer4 + answer5;
 };
 
-
 $(document).ready(function() {
 
   $("#formOne").submit(function(event) {
@@ -12,7 +11,6 @@ $(document).ready(function() {
     var answer3 = parseInt($("#question3").val());
     var answer4 = parseInt($("#question4").val());
     var answer5 = parseInt($("#question5").val());
-
     var sum = add(answer1, answer2, answer3, answer4, answer5);
 
     if (sum<7){
