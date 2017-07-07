@@ -2,6 +2,9 @@
   display: none;
 }
 
+#other {
+  display: none;
+}
 p {
   font-size: 14px;
 }
