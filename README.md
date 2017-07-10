@@ -1,6 +1,6 @@
 # _{Find Your Track}_
 
-#### _{This webpage helps those thinking about becoming devlopers. A short quiz uses javascript to determine which programming languages are the best fit for the career candidate.}, {July 7th, 2017}_
+#### _{This webpage helps those thinking about becoming developers. A short quiz uses javascript to determine which programming languages are the best fit for the career candidate.}, {July 7th, 2017}_
 
 #### By _**{Kate Byars}**_
 
